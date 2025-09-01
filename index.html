@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participate Mumbai - A Citizen Engagement Platform</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <!-- Header & Navigation -->
@@ -12,7 +14,8 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h2>Participate Mumbai</h2>
+                    <img src="./bmc-logo.png" alt="BMC Logo" class="bmc-logo">
+                    <h2>Participate <span style="color:#f39c12;">Mumbai</span></h2>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="#about" class="nav-link">About</a></li>
@@ -37,20 +40,38 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Participate Mumbai</h1>
-                <h2 class="hero-subtitle">A Citizen Engagement Platform</h2>
-                <p class="hero-tagline">Connecting Citizens, Corporates & Communities for a Better Mumbai</p>
-                <div class="hero-buttons">
-                    <button class="btn btn--primary" data-modal="volunteer">Volunteer Now</button>
-                    <button class="btn btn--secondary" data-modal="csr">CSR Partner Now</button>
-                    <button class="btn btn--outline" data-modal="donate">Donate Now</button>
-                </div>
-            </div>
-        </div>
-    </section>
+   <section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">Participate <span style="color:#f39c12;">Mumbai</span></h1>
+      <h2 class="hero-subtitle">A Citizen Engagement Platform</h2>
+      <p class="hero-tagline">Empowering Citizens & Corporates to Shape a Better Mumbai</p>
+     <div class="hero-buttons">
+  <button class="btn btn--primary" data-modal="volunteer">
+    <i class="fas fa-users" style="margin-right: 8px;"></i> Volunteer
+  </button>
+  <button class="btn btn--secondary" data-modal="csr">
+    <i class="fas fa-building" style="margin-right: 8px;"></i> CSR
+  </button>
+  <button class="btn btn--outline" data-modal="donate">
+    <i class="fas fa-heart" style="margin-right: 8px;"></i> Donate
+  </button>
+</div>
+
+    </div>
+
+    <!-- Right side with images -->
+    <div class="hero-images">
+      <div class="image-grid">
+        <img src="./banner1.png" alt="Volunteer Beach">
+        <img src="./banner2.png" alt="Teaching Kids">
+        <img src="./banner3.png" alt="Health Camp">
+        <img src="./banner4.png" alt="Community Event">
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -59,19 +80,29 @@
             <p class="section-description">Participate Mumbai is BMC's single-window platform that streamlines public participation, corporate CSR initiatives, and donations to strengthen urban resilience. Launched in May 2025, this innovative platform brings together citizens, corporates, and government officials to create a more engaged and sustainable Mumbai.</p>
             
             <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Streamline Public Participation</h3>
-                    <p>Institutionalize public participation at AC level with structured engagement processes.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Foster Collaboration</h3>
-                    <p>Build bridges between BMC officials, citizens, and corporates for effective partnerships.</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Ensure Transparency</h3>
-                    <p>Maintain accountability through structured engagement and transparent processes.</p>
-                </div>
-            </div>
+  <div class="feature-card">
+    <div class="icon-circle">
+      <i class="fas fa-bullseye"></i>
+    </div>
+    <h3>Streamline Public Participation</h3>
+    <p>Institutionalize public participation at AC level with structured engagement processes.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon-circle">
+      <i class="fas fa-users"></i>
+    </div>
+    <h3>Foster Collaboration</h3>
+    <p>Build bridges between BMC officials, citizens, and corporates for effective partnerships.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon-circle">
+      <i class="fas fa-shield-alt"></i>
+    </div>
+    <h3>Ensure Transparency</h3>
+    <p>Maintain accountability through structured engagement and transparent processes.</p>
+  </div>
+</div>
+
         </div>
     </section>
 
@@ -84,14 +115,14 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/6c1b03db-6b9b-4ea0-9000-a422860df584.png" alt="Volunteers teaching in BMC schools with Maharashtrian cultural touch">
+                        <img src="project-1.png" alt="Volunteers teaching in BMC schools with Maharashtrian cultural touch">
                         <div class="project-overlay">
                             <div class="project-category">Education</div>
                         </div>
                     </div>
                     <div class="project-content">
                         <h3>Teaching in BMC Schools</h3>
-                        <p>Share your knowledge and skills with students in BMC educational institutions. Join experienced volunteers in creating engaging learning experiences.</p>
+                        <p>Share your knowledge and skills with students in BMC educational institutions. Join experienced volunteers.</p>
                         <div class="project-stats">
                             <div class="project-stat">
                                 <span class="stat-number">500+</span>
@@ -108,7 +139,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/eeece128-1dba-4db2-a19f-f402d5b40cf0.png" alt="Community volunteers engaged in beach cleaning drive in Mumbai">
+                        <img src="project-2.png" alt="Community volunteers engaged in beach cleaning drive in Mumbai">
                         <div class="project-overlay">
                             <div class="project-category">Environment</div>
                         </div>
@@ -132,7 +163,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/c95483d0-13e6-4496-8702-5fcb56a2a341.png" alt="Families and volunteers participating in tree plantation drive">
+                        <img src="project-3.jpeg" alt="Families and volunteers participating in tree plantation drive">
                         <div class="project-overlay">
                             <div class="project-category">Environment</div>
                         </div>
@@ -156,7 +187,7 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/6c2d9149-39eb-4999-9807-c4a1eb431da5.png" alt="Medical volunteers conducting public health camp for community">
+                        <img src="project-4.jpeg" alt="Medical volunteers conducting public health camp for community">
                         <div class="project-overlay">
                             <div class="project-category">Health</div>
                         </div>
@@ -187,38 +218,53 @@
             <h2 class="section-title">Corporate Engagement (CSR)</h2>
             <p class="section-description">Partner with BMC to create lasting impact through strategic CSR initiatives. Align your corporate social responsibility with Mumbai's development goals.</p>
             
-            <div class="csr-grid">
-                <div class="csr-card">
-                    <div class="csr-icon">📚</div>
-                    <div class="csr-stat">250+ schools benefited</div>
-                    <h3>Education</h3>
-                    <p>Digital classrooms, infrastructure, learning materials</p>
-                </div>
-                <div class="csr-card">
-                    <div class="csr-icon">🏥</div>
-                    <div class="csr-stat">50+ hospitals equipped</div>
-                    <h3>Health</h3>
-                    <p>Medical equipment, health camps, hospital infrastructure</p>
-                </div>
-                <div class="csr-card">
-                    <div class="csr-icon">🌱</div>
-                    <div class="csr-stat">100+ communities covered</div>
-                    <h3>Environment</h3>
-                    <p>Waste management, recycling, clean energy initiatives</p>
-                </div>
-                <div class="csr-card">
-                    <div class="csr-icon">🏗️</div>
-                    <div class="csr-stat">200+ projects completed</div>
-                    <h3>Infrastructure</h3>
-                    <p>Public facilities, smart city solutions, accessibility</p>
-                </div>
-                <div class="csr-card">
-                    <div class="csr-icon">💼</div>
-                    <div class="csr-stat">5000+ people trained</div>
-                    <h3>Livelihood</h3>
-                    <p>Skill development, employment generation, microfinance</p>
-                </div>
-            </div>
+          <div class="csr-grid">
+  <div class="csr-card">
+    <div class="csr-icon icon-circle">
+      <i class="fas fa-book"></i>
+    </div>
+    <div class="csr-stat">250+ schools benefited</div>
+    <h3>Education</h3>
+    <p>Digital classrooms, infrastructure, learning materials</p>
+  </div>
+
+  <div class="csr-card">
+    <div class="csr-icon icon-circle">
+      <i class="fas fa-hospital"></i>
+    </div>
+    <div class="csr-stat">50+ hospitals equipped</div>
+    <h3>Health</h3>
+    <p>Medical equipment, health camps, hospital infrastructure</p>
+  </div>
+
+  <div class="csr-card">
+    <div class="csr-icon icon-circle">
+      <i class="fas fa-leaf"></i>
+    </div>
+    <div class="csr-stat">100+ communities covered</div>
+    <h3>Environment</h3>
+    <p>Waste management, recycling, clean energy initiatives</p>
+  </div>
+
+  <div class="csr-card">
+    <div class="csr-icon icon-circle">
+      <i class="fas fa-city"></i>
+    </div>
+    <div class="csr-stat">200+ projects completed</div>
+    <h3>Infrastructure</h3>
+    <p>Public facilities, smart city solutions, accessibility</p>
+  </div>
+
+  <div class="csr-card">
+    <div class="csr-icon icon-circle">
+      <i class="fas fa-briefcase"></i>
+    </div>
+    <div class="csr-stat">5000+ people trained</div>
+    <h3>Livelihood</h3>
+    <p>Skill development, employment generation, microfinance</p>
+  </div>
+</div>
+
             
             <div class="csr-cta">
                 <h3>Ready to Make an Impact?</h3>
@@ -235,25 +281,35 @@
             <p class="section-description">Support Mumbai's development through material or monetary donations. Every contribution makes a difference in building a better city for all.</p>
             
             <div class="donations-grid">
-                <div class="donation-type">
-                    <h3>Material Donations</h3>
-                    <ul>
-                        <li><span class="donation-icon">🪑</span>Benches for Public Spaces</li>
-                        <li><span class="donation-icon">💡</span>Streetlights for Safety</li>
-                        <li><span class="donation-icon">💧</span>Water Filters for Communities</li>
-                        <li><span class="donation-icon">📖</span>Books for Libraries</li>
-                        <li><span class="donation-icon">💻</span>Digital Infrastructure</li>
-                    </ul>
-                </div>
-                <div class="donation-type">
-                    <h3>Monetary Contributions</h3>
-                    <ul>
-                        <li><span class="donation-icon">💰</span>CSR Contributions</li>
-                        <li><span class="donation-icon">🧾</span>Tax Benefits Available</li>
-                        <li><span class="donation-icon">📊</span>Transparent Fund Utilization</li>
-                    </ul>
-                </div>
-            </div>
+  <div class="donation-type">
+    <div class="icon-circle green">
+      <i class="fas fa-box"></i>
+    </div>
+    <h3>Material Donations</h3>
+    <ul>
+      <li>Benches for public spaces</li>
+      <li>Streetlights for safety</li>
+      <li>Water filters for communities</li>
+      <li>Books for libraries</li>
+      <li>Digital infrastructure</li>
+    </ul>
+  </div>
+
+  <div class="donation-type">
+    <div class="icon-circle blue">
+      <i class="fas fa-dollar-sign"></i>
+    </div>
+    <h3>Monetary Contributions</h3>
+    <ul>
+      <li>CSR contributions</li>
+      <li>Schedule VII compliance</li>
+      <li>Tax benefits available</li>
+      <li>Transparent fund utilization</li>
+      <li>Impact reporting</li>
+    </ul>
+  </div>
+</div>
+
             
             <div class="donations-cta">
                 <h3>Ready to Contribute?</h3>
@@ -551,27 +607,59 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <!-- Left Column - Brand & Description -->
+            <div class="footer-brand">
+                <img src="./bmc-logo.png" alt="BMC Logo" class="footer-logo-img">
+                <div class="footer-brand-content">
                     <h3>Participate Mumbai</h3>
-                    <p>A Citizen Engagement Platform</p>
-                </div>
-                <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#volunteer-projects">Volunteer Projects</a>
-                    <a href="#corporate">Corporate CSR</a>
-                    <a href="#donations">Donations</a>
-                    <a href="#impact">Impact</a>
-                    <a href="#contact">Contact</a>
+                    <p class="platform-tagline">A Citizen Engagement Platform</p>
+                    <p class="description">Empowering citizens and corporates to shape a better Mumbai through structured engagement, transparency, and collaborative development initiatives.</p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Brihanmumbai Municipal Corporation. All rights reserved.</p>
+
+            <!-- Middle Column - Quick Links -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Platform</a></li>
+                    <li><a href="#volunteer-projects">Citizen Engagement</a></li>
+                    <li><a href="#corporate">Corporate CSR</a></li>
+                    <li><a href="#impact">Impact Stories</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Column - Connect -->
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <a href="https://bmc.mahitechno.com" class="website-link">
+                    <i class="fas fa-globe"></i>
+                    bmc.mahitechno.com
+                </a>
             </div>
         </div>
-    </footer>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Brihanmumbai Municipal Corporation. All rights reserved. | Launched May 2025 | Knowledge Partner: Ernst &amp; Young</p>
+        </div>
+    </div>
+</footer>
 
     <script src="app.js"></script>
 </body>
