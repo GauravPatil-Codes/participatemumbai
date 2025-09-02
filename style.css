@@ -263,7 +263,9 @@
   --color-warning-rgb: var(--color-orange-400-rgb);
   --color-info-rgb: var(--color-gray-300-rgb);
 }
-
+:root{
+  background: white;
+}
 [data-color-scheme="light"] {
   /* RGB versions for opacity control (light mode) */
   --color-brown-600-rgb: 94, 82, 64;
@@ -1069,8 +1071,8 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--space-24);
   /* max-width: var(--container-lg); */
-  margin: 0px;
-  padding: 20px;
+  margin: 0px !important;
+  padding: 20px !important;
 }
 
 .csr-card {
@@ -1114,8 +1116,8 @@ section {
   background: linear-gradient(135deg, #cee1ff, rgba(253, 223, 174, 0.85));
   padding: var(--space-32);
   /* border-radius: var(--radius-lg); */
-  max-width: 100%;
-  margin: 0px;
+  /* max-width: 100%; */
+  margin: 0px !important;
 }
 
 .csr-cta h3 {
